@@ -1,0 +1,36 @@
+{
+  "accountAssociation": {
+    "header": "",
+    "payload": "",
+    "signature": ""
+  },
+  "frame": {
+    "version": "1",
+    "name": "ContainerYield",
+    "iconUrl": "https://0co.to/images/zara-2.png",
+    "homeUrl": "https://app-d71fb389-cm0m.vercel.app",
+    "imageUrl": "https://containeryield-diqm.vercel.app/image.png",
+    "splashImageUrl": "https://containeryield-diqm.vercel.app/splash.png",
+    "splashBackgroundColor": "#000000",
+    "webhookUrl": "https://app-d71fb389-cm0m.vercel.app/api/webhook",
+    "subtitle": "Built with Zara",
+    "description": "ContainerYield is a Base Mini App built with Zara.",
+    "screenshotUrls": [
+      "https://containeryield-diqm.vercel.app/screenshot1.png",
+      "https://containeryield-diqm.vercel.app/screenshot2.png"
+    ],
+    "primaryCategory": "social",
+    "tags": [
+      "base",
+      "miniapp",
+      "onchainkit"
+    ],
+    "heroImageUrl": "https://containeryield-diqm.vercel.app/hero.png",
+    "tagline": "ContainerYield",
+    "buttonTitle": "Open mini app",
+    "ogTitle": "ContainerYield",
+    "ogDescription": "ContainerYield is a Base Mini App built with Zara.",
+    "ogImageUrl": "https://containeryield-diqm.vercel.app/og-image.png",
+    "castShareUrl": "https://warpcast.com/~/compose?text=Check+out+ContainerYield+at+https%3A%2F%2Fcontaineryield-diqm.vercel.app"
+  }
+}
