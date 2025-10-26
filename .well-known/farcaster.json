@@ -1,0 +1,30 @@
+{
+  "accountAssociation": {
+    "header": "eyJmaWQiOjkxNTIsInR5cGUiOiJjdXN0b2R5Iiwia2V5IjoiMHgwMmVmNzkwRGQ3OTkzQTM1ZkQ4NDdDMDUzRURkQUU5NDBEMDU1NTk2In0",
+    "payload": "eyJkb21haW4iOiJjb250YWluZXJ5aWVsZC5hcHAifQ",
+    "signature": "MHgxMGQwZGU4ZGYwZDUwZTdmMGIxN2YxMTU2NDI1MjRmZTY0MTUyZGU4ZGU1MWU0MThiYjU4ZjVmZmQxYjRjNDBiNGVlZTRhNDcwNmVmNjhlMzQ0ZGQ5MDBkYmQyMmNlMmVlZGY5ZGQ0N2JlNWRmNzMwYzUxNjE4OWVjZDJjY2Y0MDFj"
+  },
+  "frame": {
+    "version": "1",
+    "name": "ContainerYield",
+    "homeUrl": "https://containeryield.app",
+    "iconUrl": "https://containeryield.app/icon.png",
+    "splashImageUrl": "https://containeryield.app/splash.png",
+    "splashBackgroundColor": "#1a2332",
+    "webhookUrl": "https://containeryield.app/api/webhook",
+    "subtitle": "Invest in shipping containers, earn passive income monthly",
+    "description": "ContainerYield democratizes container investment by enabling fractional ownership, transparent yield tracking, and instant container rentals for logistics needs—all within a social-first, wallet-native experience.",
+    "screenshotUrls": [
+      "https://containeryield.app/screenshot1.png",
+      "https://containeryield.app/screenshot2.png",
+      "https://containeryield.app/screenshot3.png"
+    ],
+    "primaryCategory": "finance",
+    "tags": ["investment", "defi", "containers", "yield", "passive-income"],
+    "heroImageUrl": "https://containeryield.app/hero.png",
+    "tagline": "Invest in shipping containers, earn passive income monthly",
+    "ogTitle": "ContainerYield - Invest in Shipping Containers",
+    "ogDescription": "Democratizing container investment with fractional ownership and transparent yields",
+    "ogImageUrl": "https://containeryield.app/og.png"
+  }
+}
