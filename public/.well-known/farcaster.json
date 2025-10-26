@@ -8,11 +8,11 @@
     "version": "1",
     "name": "ContainerYield",
     "iconUrl": "https://0co.to/images/zara-2.png",
-    "homeUrl": "https://app-d71fb389-cm0m.vercel.app",
+    "homeUrl": "https://app-d71fb389-cjt9.vercel.app",
     "imageUrl": "https://containeryield-diqm.vercel.app/image.png",
     "splashImageUrl": "https://containeryield-diqm.vercel.app/splash.png",
     "splashBackgroundColor": "#000000",
-    "webhookUrl": "https://app-d71fb389-cm0m.vercel.app/api/webhook",
+    "webhookUrl": "https://app-d71fb389-cjt9.vercel.app/api/webhook",
     "subtitle": "Built with Zara",
     "description": "ContainerYield is a Base Mini App built with Zara.",
     "screenshotUrls": [
