@@ -5,11 +5,11 @@ Invest in shipping containers, earn passive income monthly.
 ## Features
 
 - 🏦 Fractional container ownership starting at $100
-- 📊 Real-time yield tracking and transparent returns
-- 🔒 Vacancy protection with guaranteed 3% minimum yield
+- 📊 Real-time yield tracking and transparent analytics
+- 🔒 Guaranteed 3% minimum annual yield with vacancy protection
 - 📱 Mobile-first, wallet-native experience
-- 🤝 Social investment feed with community features
-- 📦 Instant container booking with quality verification
+- 🎯 Social investment feed with community features
+- ⚡ Instant container booking and rental
 
 ## Getting Started
 
@@ -18,12 +18,19 @@ Invest in shipping containers, earn passive income monthly.
 npm install
 ```
 
-2. Run the development server:
+2. Create `.env.local` file:
+```bash
+cp .env.local.example .env.local
+```
+
+3. Add your OnchainKit API key to `.env.local`
+
+4. Run the development server:
 ```bash
 npm run dev
 ```
 
-3. Open [http://localhost:3000](http://localhost:3000) in your browser.
+5. Open [http://localhost:3000](http://localhost:3000)
 
 ## Tech Stack
 
@@ -37,19 +44,19 @@ npm run dev
 ## Base Mini App Integration
 
 This app is built as a Base Mini App with:
-- Farcaster Frame integration
-- Wallet-native transactions
-- Social primitives (sharing, co-investing)
-- Push notifications for yield payouts
-- Save frame functionality
+- Farcaster Frame manifest at `/.well-known/farcaster.json`
+- OnchainKit provider for wallet integration
+- Mobile-optimized UI with bottom navigation
+- Social primitives for community engagement
 
-## Environment Variables
+## Design System
 
-Create a `.env.local` file:
-
-```
-NEXT_PUBLIC_ONCHAINKIT_API_KEY=your_api_key_here
-```
+The app uses the BASE theme with:
+- Dark blue background (#1a2332)
+- Base blue accents (#0052ff)
+- Green success indicators (#10b981)
+- Rounded borders and modern card layouts
+- Responsive design for mobile and desktop
 
 ## License
 

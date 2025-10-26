@@ -5,7 +5,7 @@ import { DashboardHeader } from './components/DashboardHeader';
 import { TrustCard } from './components/TrustCard';
 import { ActivityFeed } from './components/ActivityFeed';
 import { Sidebar } from './components/Sidebar';
-import { BottomNav } from './components/BottomNav';
+import { MobileNav } from './components/MobileNav';
 
 export default function Home() {
   const [activeTab, setActiveTab] = useState<'dashboard' | 'invest'>('dashboard');
@@ -13,7 +13,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-bg flex">
       {/* Desktop Sidebar */}
-      <Sidebar />
+      <Sidebar activeTab={activeTab} onTabChange={setActiveTab} />
 
       {/* Main Content */}
       <main className="flex-1 pb-20 lg:pb-0">
@@ -21,14 +21,14 @@ export default function Home() {
           <DashboardHeader />
           
           <div className="mt-6 space-y-6">
-            <TrustCard activeTab={activeTab} onTabChange={setActiveTab} />
+            <TrustCard />
             <ActivityFeed />
           </div>
         </div>
       </main>
 
       {/* Mobile Bottom Navigation */}
-      <BottomNav />
+      <MobileNav activeTab={activeTab} onTabChange={setActiveTab} />
     </div>
   );
 }

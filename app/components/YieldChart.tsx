@@ -4,17 +4,17 @@ import { LineChart, Line, XAxis, YAxis, ResponsiveContainer, Tooltip } from 'rec
 
 const data = [
   { month: 'Jan', value: 0 },
-  { month: 'Feb', value: 1500 },
-  { month: 'Mar', value: 3200 },
-  { month: 'Apr', value: 2800 },
-  { month: 'May', value: 4500 },
-  { month: 'Jun', value: 5200 },
-  { month: 'Jul', value: 6800 },
-  { month: 'Aug', value: 8500 },
-  { month: 'Sep', value: 10200 },
+  { month: 'Feb', value: 1000 },
+  { month: 'Mar', value: 2500 },
+  { month: 'Apr', value: 3200 },
+  { month: 'May', value: 5000 },
+  { month: 'Jun', value: 4800 },
+  { month: 'Jul', value: 6500 },
+  { month: 'Aug', value: 8200 },
+  { month: 'Sep', value: 10500 },
   { month: 'Oct', value: 12800 },
-  { month: 'Nov', value: 15500 },
-  { month: 'Dec', value: 18200 },
+  { month: 'Nov', value: 15200 },
+  { month: 'Dec', value: 18500 },
 ];
 
 export function YieldChart() {
@@ -57,7 +57,7 @@ export function YieldChart() {
             stroke="#10b981"
             strokeWidth={3}
             dot={false}
-            fill="url(#lineGradient)"
+            activeDot={{ r: 6, fill: '#10b981' }}
           />
         </LineChart>
       </ResponsiveContainer>
